@@ -1,4 +1,4 @@
-package com.sudoplay.mc.ctmortar.proxy;
+package com.sudoplay.mc.cttinycoal.proxy;
 
 public class ProxyServer extends
     ProxyCommon {

@@ -1,6 +1,6 @@
-package com.sudoplay.mc.ctmortar.proxy;
+package com.sudoplay.mc.cttinycoal.proxy;
 
-import com.sudoplay.mc.ctmortar.ModItems;
+import com.sudoplay.mc.cttinycoal.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

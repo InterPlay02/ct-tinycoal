@@ -1,11 +1,10 @@
-package com.sudoplay.mc.ctmortar;
+package com.sudoplay.mc.cttinycoal;
 
-import com.sudoplay.mc.ctmortar.proxy.ProxyCommon;
+import com.sudoplay.mc.cttinycoal.proxy.ProxyCommon;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.oredict.OreDictionary;
 import org.apache.logging.log4j.Logger;
 
 @net.minecraftforge.fml.common.Mod(
@@ -16,15 +15,15 @@ import org.apache.logging.log4j.Logger;
 )
 public class Mod {
 
-  public static final String MOD_ID = "ctmortar";
+  public static final String MOD_ID = "cttinycoal";
   public static final String VERSION = "@@VERSION@@";
-  public static final String NAME = "CT Mortar";
+  public static final String NAME = "CT TinyCoal";
 
   @SuppressWarnings("unused")
   @net.minecraftforge.fml.common.Mod.Instance
   public static Mod INSTANCE;
 
-  @SidedProxy(clientSide = "com.sudoplay.mc.ctmortar.proxy.ProxyClient", serverSide = "com.sudoplay.mc.ctmortar.proxy.ProxyServer")
+  @SidedProxy(clientSide = "com.sudoplay.mc.cttinycoal.proxy.ProxyClient", serverSide = "com.sudoplay.mc.cttinycoal.proxy.ProxyServer")
   public static ProxyCommon PROXY;
 
   public static Logger LOG;

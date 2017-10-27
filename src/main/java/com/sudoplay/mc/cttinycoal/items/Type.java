@@ -1,13 +1,11 @@
-package com.sudoplay.mc.ctmortar.items;
+package com.sudoplay.mc.cttinycoal.items;
 
 import javax.annotation.Nonnull;
 
 public enum Type {
 
-  Wood(0, "wood"),
-  Stone(1, "stone"),
-  Iron(2, "iron"),
-  Diamond(3, "diamond");
+  Coal(0, "coal"),
+  Charcoal(1, "charcoal");
 
   private final int meta;
   private final String name;

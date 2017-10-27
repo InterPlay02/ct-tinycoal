@@ -6,7 +6,8 @@
   "type": "forge:ore_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:coal",
+      "data": 0
     }
   ]
 }
