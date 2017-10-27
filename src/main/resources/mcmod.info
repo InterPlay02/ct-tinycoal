@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cttinycoal",
+  "name": "CT TinyCoal",
+  "description": "Simply adds smaller pieces of coal and charcoal fuel.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/codetaylor/ct-tinycoal",
+  "updateUrl": "",
+  "authorList": ["codetaylor"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

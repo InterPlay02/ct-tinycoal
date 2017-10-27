@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "cttinycoal:tiny_coal",
+    "count": 8
+  },
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ]
+}
