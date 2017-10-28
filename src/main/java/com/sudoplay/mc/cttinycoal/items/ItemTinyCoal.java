@@ -9,8 +9,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ItemTinyCoal extends
-    Item {
+public class ItemTinyCoal
+    extends Item {
 
   public ItemTinyCoal(
       Type type
@@ -28,12 +28,6 @@ public class ItemTinyCoal extends
   public void initModel() {
 
     ModelLoader.setCustomModelResourceLocation(this, 0, new ModelResourceLocation(this.getRegistryName(), "inventory"));
-  }
-
-  @Override
-  public boolean isEnchantable(ItemStack stack) {
-
-    return false;
   }
 
   @Override
